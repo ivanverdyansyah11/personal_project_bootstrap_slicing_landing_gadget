@@ -1,0 +1,197 @@
+/* FONTFACE */
+@font-face {
+    font-family: 'urbanist-extrabold';
+    src: url("../font/urbanist/Urbanist-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'urbanist-bold';
+    src: url("../font/urbanist/Urbanist-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'urbanist-semibold';
+    src: url("../font/urbanist/Urbanist-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'urbanist-medium';
+    src: url("../font/urbanist/Urbanist-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'urbanist-regular';
+    src: url("../font/urbanist/Urbanist-Regular.ttf") format("truetype");
+}
+/* END FONTFACE */
+
+
+/* ROOT VARIABLE */
+:root {
+    --primary-color: 31, 199, 0;
+    --dark-color: 29, 29, 29;
+    --light-color: 255, 255, 255;
+
+    --urbanist-extrabold: 'urbanist-extrabold', Arial, Helvetica, sans-serif;
+    --urbanist-bold: 'urbanist-bold', Arial, Helvetica, sans-serif;
+    --urbanist-semibold: 'urbanist-semibold', Arial, Helvetica, sans-serif;
+    --urbanist-medium: 'urbanist-medium', Arial, Helvetica, sans-serif;
+    --urbanist-regular: 'urbanist-regular', Arial, Helvetica, sans-serif;
+
+    --transition-duration: 250ms;
+}
+/* END ROOT VARIABLE */
+
+
+/* GLOBAL STYLE */
+* {
+    font-family: var(--urbanist-medium);
+    transition: var(--transition-duration);
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #F7F7F7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin-bottom: 0;
+    color: rgba(var(--dark-color), 1);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.headline {
+    font-size: 4rem;
+    line-height: 110%;
+    font-family: var(--urbanist-extrabold);
+    color: rgba(var(--dark-color), 1);
+    text-transform: capitalize;
+}
+
+.headline span {
+    font-family: var(--urbanist-extrabold);
+    color: rgba(var(--primary-color), 1);
+}
+
+.title {
+    font-size: 3rem;
+    line-height: 110%;
+    font-family: var(--urbanist-extrabold);
+}
+
+.title span {
+    font-family: var(--urbanist-extrabold);
+    color: rgba(var(--primary-color), 1);
+}
+
+.description {
+    font-size: 0.945rem;
+    line-height: 150%;
+    color: rgba(var(--dark-color), 0.62);
+}
+
+.button-outline,
+.button-outline:hover,
+.button-outline-small,
+.button-outline-small:hover,
+.button-primary,
+.button-primary-small {
+    padding: 14px 24px;
+    font-size: 0.913rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid transparent;
+    color: rgba(var(--light-color), 1);
+    background-color: rgba(var(--primary-color), 1);
+}
+
+.button-outline,
+.button-outline-small,
+.button-primary:hover,
+.button-primary-small:hover {
+    border-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--primary-color), 1);
+    background-color: transparent;
+}
+
+.button-primary-small {
+    padding: 10px 16px;
+}
+
+.button-outline,
+.button-outline-small {
+    color: rgba(var(--dark-color), 1);
+}
+
+.button-outline-small {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    background-color: rgba(var(--primary-color), 0.06);
+}
+
+.button-outline-small:hover {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    color: rgba(var(--light-color), 1);
+    background-color: rgba(var(--primary-color), 1);
+}
+
+.button-primary .cart-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url("../image/icon/cart-light.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-primary:hover .cart-icon {
+    background-image: url("../image/icon/cart-primary.svg");
+}
+
+.button-outline .arrow-icon,
+.button-outline-small .arrow-icon {
+    width: 15px;
+    height: 13px;
+    background-image: url("../image/icon/arrow-double-left-dark.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-outline-small .arrow-icon {
+    width: 11px;
+    height: 9px;
+}
+
+.button-outline:hover .arrow-icon,
+.button-outline-small:hover .arrow-icon {
+    background-image: url("../image/icon/arrow-double-left-light.svg");
+}
+
+.section-gap {
+    margin-top: 120px;
+}
+
+.content-gap {
+    margin-top: 46px;
+}
+
+.card-section {
+    padding: 42px;
+    border-radius: 12px;
+    background-color: rgba(var(--dark-color), 1);
+}
+/* END GLOBAL STYLE */
