@@ -1,0 +1,26 @@
+section.benefit .benefit-item .item-icon {
+    height: 56px;
+    width: 100%;
+}
+
+section.benefit .benefit-item .content-title {
+    font-size: 1.125rem;
+    font-family: var(--urbanist-semibold);
+    color: rgba(var(--light-color), 1);
+    text-wrap: nowrap;
+}
+
+section.benefit .benefit-item .content-description {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.62);
+    text-wrap: nowrap;
+}
+
+section.benefit hr {
+    rotate: 90deg;
+    width: 50px;
+    height: 100%;
+    color: inherit;
+    border-top: 1px rgba(var(--light-color), 0.32) solid;
+    opacity: 1;
+}
