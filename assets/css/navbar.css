@@ -1,0 +1,27 @@
+nav.navbar {
+    height: 86px;
+    background-color: #F7F7F7 !important;
+    z-index: 10 !important;
+    border-bottom: 1px solid rgba(var(--dark-color), 0.12) !important;
+}
+
+nav.navbar .nav-link {
+    font-size: 0.913rem;
+}
+
+nav.navbar .nav-link:hover,
+nav.navbar .nav-link.active {
+    color: rgba(var(--primary-color), 1);
+}
+
+nav.navbar .button-sosmed {
+    width: 42px;
+    height: 42px;
+    border-radius: 9999px;
+    background-color: transparent;
+    border: 1px solid rgba(var(--primary-color), 1);
+}
+
+nav.navbar .button-sosmed:hover {
+    background-color: rgba(var(--primary-color), 0.12);
+}
