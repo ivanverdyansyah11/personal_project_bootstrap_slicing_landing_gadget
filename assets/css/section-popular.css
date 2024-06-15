@@ -1,0 +1,101 @@
+section.popular .scroll-button {
+    width: 100%;
+    overflow-x: auto;
+}
+
+section.popular .scroll-button .wrapper {
+    width: 100%;
+}
+
+section.popular .button-category {
+    text-wrap: nowrap;
+    padding: 12px 16px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(var(--light-color), 1);
+    color: rgba(var(--dark-color), 0.62);
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+section.popular .button-category.active,
+section.popular .button-category:hover {
+    background-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--light-color), 1);
+}
+
+section.popular select.button-category.active,
+section.popular select.button-category:hover {
+    background-color: rgba(var(--light-color), 1);
+    color: rgba(var(--dark-color), 1);
+}
+
+.card-product .product-image {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-product .product-image img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card-product .product-image .batch-discount {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 9999px;
+    padding: 7px 14px;
+    background-color: rgba(var(--dark-color), 1);
+    color: rgba(var(--light-color), 1);
+    font-size: 0.813rem;
+}
+
+.card-product .product-image .batch-detail {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    padding: 6px;
+    border-radius: 9999px;
+    background-color: rgba(var(--light-color), 1);
+}
+
+.card-product:hover .product-image .batch-detail {
+    top: 50%;
+    opacity: 1;
+}
+
+.card-product .product-image .batch-detail button {
+    background-color: rgba(var(--primary-color), 0.06);
+    width: 42px;
+    height: 42px;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-product .product-image .batch-detail button:hover {
+    background-color: rgba(var(--primary-color), 0.12);
+    border-color: rgba(var(--primary-color), 0.12);
+}
+
+.card-product .product-content .content-title {
+    font-size: 1rem;
+    font-family: var(--urbanist-semibold);
+}
+
+.card-product .product-content .content-price {
+    font-size: 0.913rem;
+}
+
+.card-product .product-content .content-discount {
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 0.62);
+    text-decoration: line-through;
+}
