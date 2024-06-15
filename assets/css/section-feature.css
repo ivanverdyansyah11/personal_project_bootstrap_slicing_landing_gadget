@@ -1,0 +1,123 @@
+section.feature .watch-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+section.feature .watch-image {
+    opacity: 0.62;
+}
+
+section.feature .watch-image:hover,
+section.feature .watch-image.active {
+    opacity: 1;
+}
+
+section.feature .watch-image-banner {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgba(var(--light-color), 1);
+}
+
+section.feature .watch-image-banner img {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+section.feature .feature-title {
+    font-size: 1.5rem;
+    color: rgba(var(--dark-color), 1);
+    font-family: var(--urbanist-bold);
+}
+
+section.feature .feature-star p {
+    color: rgba(var(--dark-color), 0.62);
+    font-size: 0.875rem;
+}
+
+section.feature .feature-description {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.62);
+}
+
+section.feature .feature-list .list-item h6 {
+    font-size: 1rem;
+    font-family: var(--urbanist-semibold);
+}
+
+section.feature .feature-list .list-item p {
+    font-size: 0.913rem;
+    font-family: var(--urbanist-semibold);
+}
+
+section.feature .feature-list .list-item p span {
+    font-size: 0.875rem;
+    text-decoration: line-through;
+    color: rgba(var(--dark-color), 0.62);
+    margin-left: 12px;
+}
+
+section.feature .feature-list .list-item .button-size {
+    padding: 6px 12px;
+    outline: none;
+    border: none;
+    border-radius: 9999px;
+    background-color: rgba(var(--light-color), 1);
+    color: rgba(var(--dark-color), 0.62);
+    font-size: 0.813rem;
+}
+
+section.feature .feature-list .list-item .button-size.active,
+section.feature .feature-list .list-item .button-size:hover {
+    background-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--light-color), 1);
+}
+
+section.feature .feature-list .list-item .watch-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+section.feature .feature-list .list-item .button-quantity {
+    width: 32px;
+    height: 32px;
+    outline: none;
+    border: 1px solid rgba(var(--primary-color), 1);
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(var(--primary-color), 1);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--urbanist-bold);
+}
+
+section.feature .feature-list .list-item .button-quantity.active,
+section.feature .feature-list .list-item .button-quantity:hover {
+    background-color: rgba(var(--primary-color), 0.06);
+}
+
+section.feature .feature-list .list-item .button-value {
+    width: 32px;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(var(--dark-color), 1);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--urbanist-bold);
+    cursor: text;
+}
