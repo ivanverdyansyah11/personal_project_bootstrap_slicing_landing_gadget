@@ -1,0 +1,8 @@
+section.discount .title {
+    color: rgba(var(--light-color), 1);
+}
+
+section.discount .description {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.62);
+}
