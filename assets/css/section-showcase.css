@@ -1,0 +1,53 @@
+section.showcase {
+    padding: 120px 0;
+}
+
+section.showcase .showcase-item {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/showcase/line.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.showcase .row-showcase {
+    position: relative;
+}
+
+section.showcase .row-showcase:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 280px;
+    background-color: #D9D9D9;
+    border-radius: 12px;
+}
+
+section.showcase .card-showcase {
+    padding: 62px 32px;
+    background-color: rgba(var(--dark-color), 1);
+    border-radius: 12px;
+}
+
+section.showcase .card-showcase .title {
+    color: rgba(var(--light-color), 1);
+    font-family: var(--urbanist-regular);
+}
+
+section.showcase .card-showcase .title span {
+    font-family: var(--urbanist-extrabold);
+    color: rgba(var(--light-color), 1);
+}
+
+section.showcase .card-showcase .button-outline {
+    color: rgba(var(--light-color), 1);
+}
+
+section.showcase .card-showcase .button-outline .arrow-icon {
+    background-image: url("../image/icon/arrow-double-left-light.svg");
+}
