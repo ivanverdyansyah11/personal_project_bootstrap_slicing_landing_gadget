@@ -1,0 +1,46 @@
+@media (max-width: 1199.98px) {
+    .headline {
+        font-size: 3.5rem;
+    }
+
+    .title {
+        font-size: 2.75rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .headline {
+        font-size: 3.25rem;
+    }
+
+    .content-gap {
+        margin-top: 36px;
+    }
+
+    section.hero {
+        height: fit-content;
+        padding-top: 120px;
+    }
+
+    section.showcase .section-gap {
+        margin-top: 62px;
+    }
+
+    section.cta img {
+        width: 360px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    section.showcase .section-gap {
+        margin-top: 32px;
+    }
+
+    section.cta .card-section {
+        padding: 42px;
+    }
+}
