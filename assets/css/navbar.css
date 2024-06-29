@@ -25,3 +25,16 @@ nav.navbar .button-sosmed {
 nav.navbar .button-sosmed:hover {
     background-color: rgba(var(--primary-color), 0.12);
 }
+
+nav.navbar .button-hamburger {
+    width: 52px;
+    height: 52px;
+    border-radius: 9999px;
+    background-color: transparent;
+    border: 1px solid rgba(var(--primary-color), 0.62);
+}
+
+nav.navbar .button-hamburger:hover,
+nav.navbar .button-hamburger.active {
+    background-color: rgba(var(--primary-color), 0.12);
+}
