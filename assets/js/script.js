@@ -2,6 +2,11 @@ AOS.init({
     once: true
 });
 
+$('.button-hamburger').on('click', function() {
+    $(this).toggleClass('active')
+    $('.topbar').toggleClass('active')
+})
+
 const productImg = document.querySelectorAll('.watch-image')
 const thumbnailImg = document.querySelector('.watch-image-banner img')
 
