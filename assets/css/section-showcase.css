@@ -51,3 +51,111 @@ section.showcase .card-showcase .button-outline {
 section.showcase .card-showcase .button-outline .arrow-icon {
     background-image: url("../image/icon/arrow-double-left-light.svg");
 }
+
+section.showcase .circle-double {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+section.showcase .circle-large {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+section.showcase .circle-small {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+section.showcase .circle-one {
+    top: 0;
+    left: 0;
+}
+
+section.showcase .circle-two {
+    top: 40px;
+    left: 60%;
+}
+
+section.showcase .circle-three {
+    top: 0;
+    right: 0;
+}
+
+section.showcase .circle-four {
+    top: 0;
+    left: 55%;
+}
+
+section.showcase .circle-five {
+    top: 0;
+    left: 0;
+}
+
+section.showcase .circle-six {
+    top: 55%;
+    left: 55%;
+}
+
+section.showcase .circle-seven {
+    top: 0;
+    right: 55%;
+}
+
+section.showcase .circle-eight {
+    top: 0;
+    right: 0;
+}
+
+section.showcase .circle-nine {
+    top: 55%;
+    right: 55%;
+}
+
+section.showcase .circle-ten {
+    top: -20%;
+    right: 10%;
+}
+
+section.showcase .circle-eleven {
+    top: 30px;
+    right: 55%;
+}
+
+section.showcase .circle-twelve {
+    bottom: 20%;
+    left: 0;
+}
+
+section.showcase .circle-thirteen {
+    bottom: -10%;
+    left: 55%;
+}
+
+section.showcase .circle-fourteen {
+    bottom: -10%;
+    right: 0;
+}
+
+section.showcase .circle-animate-one {
+    animation: animationFly 2s infinite alternate;
+}
+
+section.showcase .circle-animate-two {
+    animation: animationFly 2s 0.5s infinite alternate;
+}
+
+section.showcase .circle-animate-three {
+    animation: animationFly 2s 1s infinite alternate;
+}
+
+@keyframes animationFly {
+    0% {
+        transform: translateY(-10px);
+    } 100% {
+        transform: translateY(10px);
+    }
+}
